@@ -1,0 +1,14 @@
+.post{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding: 20px;
+    font-family: rockwell;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: #e5e5e5;
+}
+

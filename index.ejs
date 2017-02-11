@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MY APP</title>
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+</head>
+<body>
+  <% for(var i=0; i<quotes.length; i++) {%>
+    <div class="post">
+        <center><h3><%= quotes[i].heading %></h3></center>
+        <p><%= quotes[i].description %></p>
+    </div>
+  <% } %>
+
+</body>
+</html>
